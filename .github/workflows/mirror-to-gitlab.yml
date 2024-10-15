@@ -22,5 +22,5 @@ jobs:
       env:
         GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
       run: |
-        git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/phatmap234/your-gitlab-repo.git
+        git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com:phatmap234/thisistest.git
         git push gitlab --all
